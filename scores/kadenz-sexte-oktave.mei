@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title>Kadenz: große Sexte ⇒ Oktave</title>
+      </titleStmt>
+      <pubStmt/>
+    </fileDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef>
+            <staffGrp symbol="bracket" bar.thru="false">
+              <staffDef n="1" lines="5">
+                <label>C</label>
+                <clef shape="G" line="2"/>
+                <keySig sig="1f"/>
+                <meterSig count="4" unit="4" visible="false"/>
+              </staffDef>
+              <staffDef n="2" lines="5">
+                <label>T</label>
+                <clef shape="G" line="2" dis="8" dis.place="below"/>
+                <keySig sig="1f"/>
+                <meterSig count="4" unit="4" visible="false"/>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section>
+            <measure n="1" right="dbl">
+              <staff n="1">
+                <layer n="1">
+                  <note pname="e" oct="4" dur="2"/>
+                  <note pname="f" oct="4" dur="2"/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer n="1">
+                  <note pname="g" oct="3" dur="2"/>
+                  <note pname="f" oct="3" dur="2"/>
+                </layer>
+              </staff>
+              <harm staff="1" place="below" tstamp="1">6</harm>
+              <harm staff="1" place="below" tstamp="3">8</harm>
+            </measure>
+            <measure n="2" right="dbl">
+              <staff n="1">
+                <layer n="1">
+                  <note pname="d" oct="4" dur="2"/>
+                  <note pname="e" oct="4" dur="2"/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer n="1">
+                  <note pname="f" oct="3" dur="2"/>
+                  <note pname="e" oct="3" dur="2"/>
+                </layer>
+              </staff>
+              <harm staff="1" place="below" tstamp="1">6</harm>
+              <harm staff="1" place="below" tstamp="3">8</harm>
+            </measure>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>
