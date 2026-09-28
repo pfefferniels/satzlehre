@@ -134,13 +134,6 @@
   margin: 0 auto;
 }
 
-.reveal .excerpts {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 60px;
-}
-
 .reveal .source {
   font-size: 0.6em;
   color: #6b7280;
