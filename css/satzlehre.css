@@ -86,6 +86,14 @@
 .reveal figure img.score.pair { width: 620px; }
 
 /* Verovio SVGs share one unit, so sizing each image by its viewBox width (--units) prints every staff at the same size. */
+.reveal .homework img,
+.reveal figure.excerpt img {
+  width: calc(var(--units) * var(--scale, 0.45) * 1px);
+  max-width: none;
+  max-height: none;
+  margin: 0;
+}
+
 /* Homework slides have no title: the examples fill the slide (720px minus section padding) and sit centred. */
 .reveal .homework {
   --scale: 0.32;
@@ -99,6 +107,7 @@
 }
 
 .reveal .homework.long { --scale: 0.245; }
+.reveal .homework.solo { --scale: 0.43; }
 
 /* Treatise passages: original text with a translation beneath, side by side. */
 .reveal .treatise {
@@ -125,16 +134,11 @@
   margin: 0 auto;
 }
 
-.reveal figure.excerpt img {
-  width: 680px;
-  max-width: none;
-}
-
-.reveal .homework img {
-  width: calc(var(--units) * var(--scale) * 1px);
-  max-width: none;
-  max-height: none;
-  margin: 0;
+.reveal .excerpts {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
 }
 
 .reveal .source {
