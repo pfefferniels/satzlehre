@@ -106,7 +106,7 @@
   gap: 24px 40px;
 }
 
-.reveal .homework.long { --scale: 0.245; }
+.reveal .homework.long { --scale: 0.305; }
 .reveal .homework.solo { --scale: 0.43; }
 
 /* Treatise passages: original text with a translation beneath, side by side. */
