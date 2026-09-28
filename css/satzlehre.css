@@ -109,6 +109,21 @@
 .reveal .homework.long { --scale: 0.305; }
 .reveal .homework.solo { --scale: 0.43; }
 
+/* Excerpts from a printed edition, centred and all at one width so the staves keep one size. */
+.reveal .edition {
+  height: 704px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reveal .edition img {
+  width: 840px;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+}
+
 /* Treatise passages: original text with a translation beneath, side by side. */
 .reveal .treatise {
   display: grid;
