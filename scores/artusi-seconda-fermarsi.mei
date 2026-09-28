@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title>Seconda, parte agente nell'acuto: fermarsi</title>
+        <composer>Giovanni Maria Artusi</composer>
+      </titleStmt>
+      <pubStmt/>
+      <notesStmt>
+        <annot>Beide Stimmen im Original mit c1-Schlüssel. Artusi notiert die Synkope der Patiente als Semibrevis ohne Haltebogen, hier auf zwei Halbe mit Bogen verteilt.</annot>
+      </notesStmt>
+      <sourceDesc>
+        <source>
+          <bibl>Giovanni Maria Artusi, Seconda parte dell'arte del contraponto, Venedig: Giacomo Vincenti 1589, S. 30 (Transkription nach Thesaurus Musicarum Italicarum, Utrecht); vgl. L'arte del contraponto, Venedig 1598, S. 41.</bibl>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef>
+            <staffGrp symbol="bracket" bar.thru="false">
+              <staffDef n="1" lines="5">
+                <label>Agente</label>
+                <clef shape="G" line="2"/>
+                <meterSig count="4" unit="4" visible="false"/>
+              </staffDef>
+              <staffDef n="2" lines="5">
+                <label>Patiente</label>
+                <clef shape="G" line="2"/>
+                <meterSig count="4" unit="4" visible="false"/>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section>
+            <measure n="1">
+              <staff n="1">
+                <layer n="1">
+                  <note pname="e" oct="4" dur="1"/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer n="1">
+                  <rest dur="2"/>
+                  <note pname="c" oct="4" dur="2" tie="i"/>
+                </layer>
+              </staff>
+              <harm staff="1" place="below" tstamp="3">3</harm>
+            </measure>
+            <measure n="2">
+              <staff n="1">
+                <layer n="1">
+                  <note pname="d" oct="4" dur="1"/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer n="1">
+                  <note pname="c" oct="4" dur="2" tie="t"/>
+                  <note pname="b" oct="3" dur="2"/>
+                </layer>
+              </staff>
+              <harm staff="1" place="below" tstamp="1">2</harm>
+              <harm staff="1" place="below" tstamp="3">3</harm>
+            </measure>
+            <measure n="3" right="end">
+              <staff n="1">
+                <layer n="1">
+                  <note pname="e" oct="4" dur="1"/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer n="1">
+                  <note pname="c" oct="4" dur="1"/>
+                </layer>
+              </staff>
+              <harm staff="1" place="below" tstamp="1">3</harm>
+            </measure>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>
