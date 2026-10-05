@@ -149,6 +149,27 @@
   margin: 0 auto;
 }
 
+.reveal .excerpts {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+.reveal .stacked-excerpts {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+/* A score excerpt alone on its slide, centred in the full slide height like .edition. */
+.reveal .score-only {
+  height: 704px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .reveal .source {
   font-size: 0.6em;
   color: #6b7280;
@@ -271,7 +292,8 @@
   text-underline-offset: 0.15em;
 }
 
-.reveal a.listen {
+.reveal a.listen,
+.reveal a.download {
   display: inline-block;
   margin-top: 0.6em;
   padding: 0.3em 0.9em;
@@ -282,7 +304,8 @@
   text-decoration: none;
 }
 
-.reveal a.listen:hover { background: #f3f4f6; }
+.reveal a.listen:hover,
+.reveal a.download:hover { background: #f3f4f6; }
 
 .reveal .slide-number {
   background: transparent;
