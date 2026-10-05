@@ -2,16 +2,18 @@
 # requires-python = ">=3.10"
 # dependencies = ["verovio"]
 # ///
-"""Render every MEI example in this directory to an SVG in ../img.
+"""Render every MEI example in this directory to an SVG in ../img, long pieces in several excerpts.
 
 An <annot type="box" plist="…"> frames the notes it lists in red and fades the rest of the example.
 """
 
 import operator
 import xml.etree.ElementTree as ET
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from functools import reduce
+from itertools import chain
 from pathlib import Path
+from xml.dom import minidom
 
 import verovio
 
@@ -74,6 +76,35 @@ class Box:
 
 
 EVERYWHERE = Box(-1e5, -1e5, 1e5, 1e5)
+
+
+@dataclass(frozen=True)
+class Rendering:
+    """How a piece appears on the slides: whole as <stem>.svg, and by bar range as <stem>-1.svg, <stem>-2.svg, …"""
+
+    whole: bool = True
+    excerpts: tuple[str, ...] = ()
+    staves: tuple[str, ...] = ()  # only these staves; all if empty
+    options: dict = field(default_factory=dict)
+
+
+# Systems of about two bars on a tall page, so that all of them land on the one page render_svg draws.
+# A fixed page width lets Verovio justify the last system of a bar range too.
+NARROW_SYSTEMS = {
+    "breaks": "auto",
+    "pageWidth": 2000,
+    "pageHeight": 20000,
+    "adjustPageWidth": False,
+    "minLastJustification": 0,
+}
+
+RENDERINGS = {
+    "artusi-seconda-fermarsi": Rendering(excerpts=("1-2",)),
+    "artusi-settima-grave-fermarsi": Rendering(excerpts=("1-2",)),
+    "corelli-op3-1-grave": Rendering(whole=False, excerpts=("1-4", "5-8", "9-12", "13-16", "17-19"), options=NARROW_SYSTEMS),
+    "corelli-op3-1-grave-aufgabe": Rendering(staves=("1",), options=NARROW_SYSTEMS | {"pageWidth": 2600}),
+    "muffat-sonata-2-grave": Rendering(whole=False, excerpts=("1-4",)),
+}
 
 
 def boxed_passages(mei: Path) -> list[list[str]]:
@@ -140,11 +171,34 @@ def with_focus(svg: str, boxes: list[Box]) -> str:
     return ET.tostring(page, encoding="unicode")
 
 
-def render_svg(mei: Path, **overrides) -> str:
+def belongs_to(element: minidom.Element, staves: tuple[str, ...]) -> bool:
+    if element.tagName in ("staff", "staffDef"):
+        return element.getAttribute("n") in staves
+    placed_on = element.getAttribute("staff").split()
+    return not placed_on or any(n in staves for n in placed_on)
+
+
+def with_staves(mei: Path, staves: tuple[str, ...]) -> str:
+    """The MEI with only the given staves and the control events placed on them."""
+    document = minidom.parse(str(mei))
+    for element in [e for e in document.getElementsByTagName("*") if not belongs_to(e, staves)]:
+        element.parentNode.removeChild(element)
+    if len(staves) == 1:
+        for group in document.getElementsByTagName("staffGrp"):
+            group.setAttribute("symbol", "none")
+    return document.toxml()
+
+
+def render_svg(mei: Path, measures: str | None = None, staves: tuple[str, ...] = (), **overrides) -> str:
+    """Render the example as one SVG page, if given only the bar range `measures` ("5-8") and the `staves`."""
     toolkit = verovio.toolkit()
     toolkit.setOptions(OPTIONS | overrides)
-    if not toolkit.loadFile(str(mei)):
+    loaded = toolkit.loadData(with_staves(mei, staves)) if staves else toolkit.loadFile(str(mei))
+    if not loaded:
         raise ValueError(f"Verovio could not load {mei}")
+    if measures:
+        toolkit.select({"measureRange": measures})
+        toolkit.redoLayout()
     svg = toolkit.renderToSVG(1)
     passages = boxed_passages(mei)
     if not passages:
@@ -155,11 +209,20 @@ def render_svg(mei: Path, **overrides) -> str:
     return with_focus(svg, boxes)
 
 
-def write_svg(mei: Path) -> Path:
-    target = IMAGES / f"{mei.stem}.svg"
-    target.write_text(render_svg(mei), encoding="utf-8")
+def write_image(mei: Path, name: str, rendering: Rendering, measures: str | None = None) -> Path:
+    target = IMAGES / name
+    target.write_text(render_svg(mei, measures, rendering.staves, **rendering.options), encoding="utf-8")
     return target
 
 
+def write_images(mei: Path) -> list[Path]:
+    rendering = RENDERINGS.get(mei.stem, Rendering())
+    whole = [write_image(mei, f"{mei.stem}.svg", rendering)] if rendering.whole else []
+    excerpts = [
+        write_image(mei, f"{mei.stem}-{n}.svg", rendering, measures) for n, measures in enumerate(rendering.excerpts, 1)
+    ]
+    return whole + excerpts
+
+
 if __name__ == "__main__":
-    print(*map(write_svg, sorted(SCORES.glob("*.mei"))), sep="\n")
+    print(*chain.from_iterable(map(write_images, sorted(SCORES.glob("*.mei")))), sep="\n")
