@@ -304,6 +304,8 @@
   text-decoration: none;
 }
 
+.reveal .second-task { margin-top: 1.2em; }
+
 .reveal a.listen:hover,
 .reveal a.download:hover { background: #f3f4f6; }
 
