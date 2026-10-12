@@ -28,6 +28,7 @@ ROOM_TO_WRITE = {"spacingLinear": 0.5, "justifyVertically": True, "justification
 HANDOUTS = {
     "corelli-op3-1-grave": {},
     "corelli-op3-1-grave-aufgabe": ROOM_TO_WRITE,
+    "corelli-op3-1-grave-reduktion": ROOM_TO_WRITE,
     "muffat-sonata-2-grave": {},
 }
 

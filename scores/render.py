@@ -101,8 +101,13 @@ NARROW_SYSTEMS = {
 RENDERINGS = {
     "artusi-seconda-fermarsi": Rendering(excerpts=("1-2",)),
     "artusi-settima-grave-fermarsi": Rendering(excerpts=("1-2",)),
-    "corelli-op3-1-grave": Rendering(whole=False, excerpts=("1-4", "5-8", "9-12", "13-16", "17-19"), options=NARROW_SYSTEMS),
+    "corelli-op3-1-grave": Rendering(
+        whole=False, excerpts=("1-4", "5-8", "9-12", "13-16", "17-19", "9-10"), options=NARROW_SYSTEMS
+    ),
     "corelli-op3-1-grave-aufgabe": Rendering(staves=("1",), options=NARROW_SYSTEMS | {"pageWidth": 2600}),
+    "corelli-op3-1-grave-reduktion": Rendering(options=NARROW_SYSTEMS | {"pageWidth": 4200}),
+    "corelli-op3-1-grave-reduktion-kadenzen": Rendering(options=NARROW_SYSTEMS | {"pageWidth": 4200}),
+    "corelli-op3-1-grave-reduktion-ligatur": Rendering(whole=False, excerpts=("8-9",), options=NARROW_SYSTEMS),
     "muffat-sonata-2-grave": Rendering(whole=False, excerpts=("1-4",)),
 }
 
