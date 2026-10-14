@@ -108,6 +108,8 @@ RENDERINGS = {
     "corelli-op3-1-grave-reduktion": Rendering(options=NARROW_SYSTEMS | {"pageWidth": 4200}),
     "corelli-op3-1-grave-reduktion-kadenzen": Rendering(options=NARROW_SYSTEMS | {"pageWidth": 4200}),
     "corelli-op3-1-grave-reduktion-ligatur": Rendering(whole=False, excerpts=("8-9",), options=NARROW_SYSTEMS),
+    # Breves and whole notes would stretch the phrase far beyond one slide at the default linear spacing.
+    "lymburgia-regina-coeli": Rendering(options={"spacingLinear": 0.3, "spacingNonLinear": 0.55}),
     "muffat-sonata-2-grave": Rendering(whole=False, excerpts=("1-4",)),
 }
 
