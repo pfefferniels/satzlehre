@@ -5,14 +5,11 @@
 """Render every MEI example in this directory to an SVG in ../img, long pieces in several excerpts.
 
 An <annot type="box" plist="…"> frames the notes it lists in red and fades the rest of the example.
-A timed rendering marks every note with its onset and offset in quarter notes from the start of the piece
-(data-on, data-off), so that js/aligned-score.js can play a recording from the note clicked.
 """
 
 import operator
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass, field
-from fractions import Fraction
 from functools import reduce
 from itertools import chain
 from pathlib import Path
@@ -89,7 +86,6 @@ class Rendering:
     excerpts: tuple[str, ...] = ()
     staves: tuple[str, ...] = ()  # only these staves; all if empty
     options: dict = field(default_factory=dict)
-    timed: bool = False
 
 
 # Systems of about two bars on a tall page, so that all of them land on the one page render_svg draws.
@@ -109,7 +105,7 @@ RENDERINGS = {
     "artusi-seconda-fermarsi": Rendering(excerpts=("1-2",)),
     "artusi-settima-grave-fermarsi": Rendering(excerpts=("1-2",)),
     "corelli-op3-1-grave": Rendering(
-        whole=False, excerpts=("1-4", "5-8", "9-12", "13-16", "17-19", "9-10"), options=NARROW_SYSTEMS, timed=True
+        whole=False, excerpts=("1-4", "5-8", "9-12", "13-16", "17-19", "9-10"), options=NARROW_SYSTEMS
     ),
     "corelli-op3-1-grave-aufgabe": Rendering(staves=("1",), options=NARROW_SYSTEMS | {"pageWidth": 2600}),
     "corelli-op3-1-grave-reduktion": Rendering(options=NARROW_SYSTEMS | {"pageWidth": 4200}),
@@ -203,52 +199,6 @@ def with_staves(mei: Path, staves: tuple[str, ...]) -> str:
     return document.toxml()
 
 
-def duration(event: ET.Element) -> Fraction:
-    """In quarter notes; grace notes take no time."""
-    if event.get("grace") or not event.get("dur"):
-        return Fraction(0)
-    dots = int(event.get("dots", 0))
-    return Fraction(4, int(event.get("dur"))) * (2 - Fraction(1, 2**dots))
-
-
-def layer_events(container: ET.Element):
-    """Notes, chords, rests and spaces in the order they sound, looking into beams."""
-    for child in container:
-        tag = child.tag.removeprefix(f"{{{MEI['mei']}}}")
-        if tag in ("note", "chord", "rest", "space"):
-            yield child
-        elif tag == "beam":
-            yield from layer_events(child)
-
-
-def note_times(mei: Path) -> dict[str, tuple[Fraction, Fraction]]:
-    """Onset and offset of every note, in quarter notes from the start, for pieces in one metre without upbeat."""
-    root = ET.parse(mei).getroot()
-    meter = next(e for e in root.iter() if e.get("meter.count") or e.get("count"))
-    count, unit = (int(meter.get(f"meter.{key}") or meter.get(key)) for key in ("count", "unit"))
-    bar = Fraction(4 * count, unit)
-    times = {}
-    for n, measure in enumerate(root.iterfind(".//mei:measure", MEI)):
-        for layer in measure.iterfind(".//mei:layer", MEI):
-            onset = n * bar
-            for event in layer_events(layer):
-                offset = onset + duration(event)
-                notes = [event] if event.tag.endswith("note") else event.iterfind("mei:note", MEI)
-                for note in notes:
-                    times[note.get("{http://www.w3.org/XML/1998/namespace}id")] = (onset, offset)
-                onset = offset
-    return times
-
-
-def with_times(svg: str, times: dict[str, tuple[Fraction, Fraction]]) -> str:
-    page = ET.fromstring(svg)
-    for note in page.iterfind(f".//{SVG}g[@class='note']"):
-        onset, offset = times[note.get("id")]
-        note.set("data-on", f"{float(onset):g}")
-        note.set("data-off", f"{float(offset):g}")
-    return ET.tostring(page, encoding="unicode")
-
-
 def render_svg(mei: Path, measures: str | None = None, staves: tuple[str, ...] = (), **overrides) -> str:
     """Render the example as one SVG page, if given only the bar range `measures` ("5-8") and the `staves`."""
     toolkit = verovio.toolkit()
@@ -271,10 +221,7 @@ def render_svg(mei: Path, measures: str | None = None, staves: tuple[str, ...] =
 
 def write_image(mei: Path, name: str, rendering: Rendering, measures: str | None = None) -> Path:
     target = IMAGES / name
-    svg = render_svg(mei, measures, rendering.staves, **rendering.options)
-    if rendering.timed:
-        svg = with_times(svg, note_times(mei))
-    target.write_text(svg, encoding="utf-8")
+    target.write_text(render_svg(mei, measures, rendering.staves, **rendering.options), encoding="utf-8")
     return target
 
 

@@ -170,59 +170,23 @@
   justify-content: center;
 }
 
-/* Score excerpts that play a recording (js/aligned-score.js): the inline SVG sizes like the image it replaces,
-   and the score leaves room for the player at the foot of the slide. */
-.reveal figure.excerpt svg.aligned {
-  display: block;
-  width: calc(var(--units) * var(--scale, 0.45) * 1px);
-  height: auto;
-  cursor: pointer;
-}
-
-.reveal section[data-recording] .score-only { height: 610px; }
-
-.reveal svg.aligned g.note:hover,
-.reveal svg.aligned g.note.sounding {
-  fill: #dc2626;
-  color: #dc2626;
-}
+/* The Spotify player of js/recording.js at the foot of the slide; the score leaves room for it. */
+.reveal section[data-spotify] .score-only { height: 610px; }
 
 .reveal .recording-player {
   position: absolute;
   left: 24px;
-  right: 24px;
   bottom: 8px;
-  display: flex;
-  align-items: center;
-  gap: 24px;
+  width: 440px;
+  height: 80px;
+  border: 0;
+  border-radius: 12px;
   pointer-events: auto;
   visibility: hidden;
   z-index: 20;
 }
 
 .reveal .recording-player.visible { visibility: visible; }
-
-.reveal .recording-embed {
-  flex: 0 0 440px;
-  height: 80px;
-}
-
-.reveal .recording-status {
-  margin: 0;
-  font-size: 0.55em;
-  color: #6b7280;
-}
-
-.reveal .recording-status button {
-  margin-left: 0.8em;
-  padding: 0.15em 0.6em;
-  border: 1px solid #e5e7eb;
-  border-radius: 4px;
-  background: none;
-  font: inherit;
-  color: inherit;
-  cursor: pointer;
-}
 
 .reveal .source {
   font-size: 0.6em;

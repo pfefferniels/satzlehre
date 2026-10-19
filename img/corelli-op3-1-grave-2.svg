@@ -100,7 +100,7 @@
                      <path d="M11112 360 L11434 360" stroke-width="22" />
                   </g>
                   <g id="m14236lf" class="layer">
-                     <g id="m5s1n1" class="note" data-on="16" data-off="17.5">
+                     <g id="m5s1n1" class="note">
                         <g class="notehead">
                            <use xlink:href="#E0A4-u1g5m2qb" transform="translate(4886, 360) scale(0.72, 0.72)" />
                         </g>
@@ -111,7 +111,7 @@
                            <path d="M4895 388 L4895 990" stroke-width="18" />
                         </g>
                      </g>
-                     <g id="m5s1n2" class="note" data-on="17.5" data-off="18">
+                     <g id="m5s1n2" class="note">
                         <g class="notehead">
                            <use xlink:href="#E0A4-u1g5m2qb" transform="translate(7458, 360) scale(0.72, 0.72)" />
                         </g>
@@ -122,7 +122,7 @@
                            </g>
                         </g>
                      </g>
-                     <g id="m5s1n3" class="note" data-on="18" data-off="19.5">
+                     <g id="m5s1n3" class="note">
                         <g class="notehead">
                            <use xlink:href="#E0A4-u1g5m2qb" transform="translate(8315, 450) scale(0.72, 0.72)" />
                         </g>
@@ -136,7 +136,7 @@
                      <g id="q1635pi6" class="beam">
                         <polygon points="11160,990 11743,1080 11743,990 11160,900" />
                         <polygon points="11160,855 11743,945 11743,855 11160,765" />
-                        <g id="m5s1n4" class="note" data-on="19.5" data-off="19.75">
+                        <g id="m5s1n4" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(11160, 360) scale(0.72, 0.72)" />
                            </g>
@@ -144,7 +144,7 @@
                               <path d="M11169 388 L11169 972" stroke-width="18" />
                            </g>
                         </g>
-                        <g id="m5s1n5" class="note" data-on="19.75" data-off="20">
+                        <g id="m5s1n5" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(11725, 450) scale(0.72, 0.72)" />
                            </g>
@@ -177,7 +177,7 @@
                      <path d="M4838 1980 L5160 1980" stroke-width="22" />
                   </g>
                   <g id="u1jsfolf" class="layer">
-                     <g id="m5s2n1" class="note" data-on="16" data-off="17">
+                     <g id="m5s2n1" class="note">
                         <g class="notehead">
                            <use xlink:href="#E0A4-u1g5m2qb" transform="translate(4886, 1980) scale(0.72, 0.72)" />
                         </g>
@@ -185,7 +185,7 @@
                            <path d="M4895 2008 L4895 2700" stroke-width="18" />
                         </g>
                      </g>
-                     <g id="m5s2n2" class="note" data-on="17" data-off="18">
+                     <g id="m5s2n2" class="note">
                         <g class="notehead">
                            <use xlink:href="#E0A4-u1g5m2qb" transform="translate(6600, 2340) scale(0.72, 0.72)" />
                         </g>
@@ -196,7 +196,7 @@
                      <g id="x7nr6hr" class="beam">
                         <polygon points="8315,2925 9756,3105 9756,3015 8315,2835" />
                         <polygon points="9182,2899 9756,2970 9756,2880 9182,2809" />
-                        <g id="m5s2n3" class="note" data-on="18" data-off="18.5">
+                        <g id="m5s2n3" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(8315, 2340) scale(0.72, 0.72)" />
                            </g>
@@ -204,7 +204,7 @@
                               <path d="M8324 2368 L8324 2907" stroke-width="18" />
                            </g>
                         </g>
-                        <g id="m5s2n4" class="note" data-on="18.5" data-off="18.75">
+                        <g id="m5s2n4" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(9173, 2430) scale(0.72, 0.72)" />
                            </g>
@@ -212,7 +212,7 @@
                               <path d="M9182 2458 L9182 3016" stroke-width="18" />
                            </g>
                         </g>
-                        <g id="m5s2n5" class="note" data-on="18.75" data-off="19">
+                        <g id="m5s2n5" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(9738, 2520) scale(0.72, 0.72)" />
                            </g>
@@ -221,7 +221,7 @@
                            </g>
                         </g>
                      </g>
-                     <g id="m5s2n6" class="note" data-on="19" data-off="20">
+                     <g id="m5s2n6" class="note">
                         <g class="notehead">
                            <use xlink:href="#E0A4-u1g5m2qb" transform="translate(10303, 2430) scale(0.72, 0.72)" />
                         </g>
@@ -254,7 +254,7 @@
                   <g id="d1gokf5a" class="layer">
                      <g id="e1itwk3z" class="beam">
                         <polygon points="4886,4905 7476,4905 7476,4815 4886,4815" />
-                        <g id="m5s3n1" class="note" data-on="16" data-off="16.5">
+                        <g id="m5s3n1" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(4886, 4320) scale(0.72, 0.72)" />
                            </g>
@@ -262,7 +262,7 @@
                               <path d="M4895 4348 L4895 4887" stroke-width="18" />
                            </g>
                         </g>
-                        <g id="m5s3n2" class="note" data-on="16.5" data-off="17">
+                        <g id="m5s3n2" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(5743, 4230) scale(0.72, 0.72)" />
                            </g>
@@ -270,7 +270,7 @@
                               <path d="M5752 4258 L5752 4887" stroke-width="18" />
                            </g>
                         </g>
-                        <g id="m5s3n3" class="note" data-on="17" data-off="17.5">
+                        <g id="m5s3n3" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(6600, 4140) scale(0.72, 0.72)" />
                            </g>
@@ -278,7 +278,7 @@
                               <path d="M6609 4168 L6609 4887" stroke-width="18" />
                            </g>
                         </g>
-                        <g id="m5s3n4" class="note" data-on="17.5" data-off="18">
+                        <g id="m5s3n4" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(7458, 4320) scale(0.72, 0.72)" />
                            </g>
@@ -289,7 +289,7 @@
                      </g>
                      <g id="jdzoe7k" class="beam">
                         <polygon points="8315,5130 11178,5130 11178,5040 8315,5040" />
-                        <g id="m5s3n5" class="note" data-on="18" data-off="18.5">
+                        <g id="m5s3n5" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(8315, 3960) scale(0.72, 0.72)" />
                            </g>
@@ -297,7 +297,7 @@
                               <path d="M8324 3988 L8324 5112" stroke-width="18" />
                            </g>
                         </g>
-                        <g id="m5s3n6" class="note" data-on="18.5" data-off="19">
+                        <g id="m5s3n6" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(9173, 4590) scale(0.72, 0.72)" />
                            </g>
@@ -305,7 +305,7 @@
                               <path d="M9182 4618 L9182 5112" stroke-width="18" />
                            </g>
                         </g>
-                        <g id="m5s3n7" class="note" data-on="19" data-off="19.5">
+                        <g id="m5s3n7" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(10303, 4410) scale(0.72, 0.72)" />
                            </g>
@@ -313,7 +313,7 @@
                               <path d="M10312 4438 L10312 5112" stroke-width="18" />
                            </g>
                         </g>
-                        <g id="m5s3n8" class="note" data-on="19.5" data-off="20">
+                        <g id="m5s3n8" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(11160, 4590) scale(0.72, 0.72)" />
                            </g>
@@ -390,7 +390,7 @@
                   <path d="M12303 1080 L19601 1080" stroke-width="13" />
                   <path d="M12303 1260 L19601 1260" stroke-width="13" />
                   <g id="o1amc1ok" class="layer">
-                     <g id="m6s1n1" class="note" data-on="20" data-off="21.5">
+                     <g id="m6s1n1" class="note">
                         <g class="notehead">
                            <use xlink:href="#E0A4-u1g5m2qb" transform="translate(12456, 540) scale(0.72, 0.72)" />
                         </g>
@@ -404,7 +404,7 @@
                      <g id="qrjb2up" class="beam">
                         <polygon points="15028,1080 15611,1170 15611,1080 15028,990" />
                         <polygon points="15028,945 15611,1035 15611,945 15028,855" />
-                        <g id="m6s1n2" class="note" data-on="21.5" data-off="21.75">
+                        <g id="m6s1n2" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(15028, 450) scale(0.72, 0.72)" />
                            </g>
@@ -412,7 +412,7 @@
                               <path d="M15037 478 L15037 1062" stroke-width="18" />
                            </g>
                         </g>
-                        <g id="m6s1n3" class="note" data-on="21.75" data-off="22">
+                        <g id="m6s1n3" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(15593, 540) scale(0.72, 0.72)" />
                            </g>
@@ -421,7 +421,7 @@
                            </g>
                         </g>
                      </g>
-                     <g id="m6s1n4" class="note" data-on="22" data-off="23.5">
+                     <g id="m6s1n4" class="note">
                         <g class="notehead">
                            <use xlink:href="#E0A4-u1g5m2qb" transform="translate(16158, 630) scale(0.72, 0.72)" />
                         </g>
@@ -432,7 +432,7 @@
                            <path d="M16167 658 L16167 1260" stroke-width="18" />
                         </g>
                      </g>
-                     <g id="m6s1n5" class="note" data-on="23.5" data-off="24">
+                     <g id="m6s1n5" class="note">
                         <g class="notehead">
                            <use xlink:href="#E0A4-u1g5m2qb" transform="translate(18730, 450) scale(0.72, 0.72)" />
                         </g>
@@ -454,7 +454,7 @@
                   <g id="wie8vgq" class="layer">
                      <g id="x1j66d4s" class="beam">
                         <polygon points="12456,3150 13331,3330 13331,3240 12456,3060" />
-                        <g id="m6s2n1" class="note" data-on="20" data-off="20.5">
+                        <g id="m6s2n1" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(12456, 2430) scale(0.72, 0.72)" />
                            </g>
@@ -462,7 +462,7 @@
                               <path d="M12465 2458 L12465 3132" stroke-width="18" />
                            </g>
                         </g>
-                        <g id="m6s2n2" class="note" data-on="20.5" data-off="21">
+                        <g id="m6s2n2" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(13313, 2790) scale(0.72, 0.72)" />
                            </g>
@@ -471,7 +471,7 @@
                            </g>
                         </g>
                      </g>
-                     <g id="m6s2n3" class="note" data-on="21" data-off="22">
+                     <g id="m6s2n3" class="note">
                         <g class="notehead">
                            <use xlink:href="#E0A4-u1g5m2qb" transform="translate(14170, 2520) scale(0.72, 0.72)" />
                         </g>
@@ -481,7 +481,7 @@
                      </g>
                      <g id="bqi65sf" class="beam">
                         <polygon points="16158,3240 17033,3420 17033,3330 16158,3150" />
-                        <g id="m6s2n4" class="note" data-on="22" data-off="22.5">
+                        <g id="m6s2n4" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(16158, 2520) scale(0.72, 0.72)" />
                            </g>
@@ -489,7 +489,7 @@
                               <path d="M16167 2548 L16167 3222" stroke-width="18" />
                            </g>
                         </g>
-                        <g id="m6s2n5" class="note" data-on="22.5" data-off="23">
+                        <g id="m6s2n5" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(17015, 2880) scale(0.72, 0.72)" />
                            </g>
@@ -498,7 +498,7 @@
                            </g>
                         </g>
                      </g>
-                     <g id="m6s2n6" class="note" data-on="23" data-off="24">
+                     <g id="m6s2n6" class="note">
                         <g class="notehead">
                            <use xlink:href="#E0A4-u1g5m2qb" transform="translate(17873, 2610) scale(0.72, 0.72)" />
                         </g>
@@ -517,7 +517,7 @@
                   <g id="g1xa3cjd" class="layer">
                      <g id="h1suucct" class="beam">
                         <polygon points="12664,3915 15254,4095 15254,4185 12664,4005" />
-                        <g id="m6s3n1" class="note" data-on="20" data-off="20.5">
+                        <g id="m6s3n1" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(12456, 4500) scale(0.72, 0.72)" />
                            </g>
@@ -525,7 +525,7 @@
                               <path d="M12673 4472 L12673 3933" stroke-width="18" />
                            </g>
                         </g>
-                        <g id="m6s3n2" class="note" data-on="20.5" data-off="21">
+                        <g id="m6s3n2" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(13313, 4590) scale(0.72, 0.72)" />
                            </g>
@@ -533,7 +533,7 @@
                               <path d="M13530 4562 L13530 3993" stroke-width="18" />
                            </g>
                         </g>
-                        <g id="m6s3n3" class="note" data-on="21" data-off="21.5">
+                        <g id="m6s3n3" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(14170, 4680) scale(0.72, 0.72)" />
                            </g>
@@ -544,7 +544,7 @@
                               <use xlink:href="#E261-u1g5m2qb" transform="translate(14012, 4680) scale(0.72, 0.72)" />
                            </g>
                         </g>
-                        <g id="m6s3n4" class="note" data-on="21.5" data-off="22">
+                        <g id="m6s3n4" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(15028, 4860) scale(0.72, 0.72)" />
                            </g>
@@ -553,7 +553,7 @@
                            </g>
                         </g>
                      </g>
-                     <g id="m6s3n5" class="note" data-on="22" data-off="23.5">
+                     <g id="m6s3n5" class="note">
                         <g class="notehead">
                            <use xlink:href="#E0A4-u1g5m2qb" transform="translate(16158, 4590) scale(0.72, 0.72)" />
                         </g>
@@ -564,7 +564,7 @@
                            <path d="M16375 4562 L16375 3960" stroke-width="18" />
                         </g>
                      </g>
-                     <g id="m6s3n6" class="note" data-on="23.5" data-off="24">
+                     <g id="m6s3n6" class="note">
                         <g class="notehead">
                            <use xlink:href="#E0A4-u1g5m2qb" transform="translate(18730, 4410) scale(0.72, 0.72)" />
                         </g>
@@ -690,7 +690,7 @@
                   <g id="wzu6qnk" class="layer">
                      <g id="xd3shxz" class="beam">
                         <polygon points="1225,7642 4528,7642 4528,7552 1225,7552" />
-                        <g id="m7s1n1" class="note" data-on="24" data-off="24.5">
+                        <g id="m7s1n1" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(1225, 6697) scale(0.72, 0.72)" />
                            </g>
@@ -698,7 +698,7 @@
                               <path d="M1234 6725 L1234 7624" stroke-width="18" />
                            </g>
                         </g>
-                        <g id="m7s1n2" class="note" data-on="24.5" data-off="25">
+                        <g id="m7s1n2" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(2320, 7057) scale(0.72, 0.72)" />
                            </g>
@@ -706,7 +706,7 @@
                               <path d="M2329 7085 L2329 7624" stroke-width="18" />
                            </g>
                         </g>
-                        <g id="m7s1n3" class="note" data-on="25" data-off="25.5">
+                        <g id="m7s1n3" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(3415, 7057) scale(0.72, 0.72)" />
                            </g>
@@ -714,7 +714,7 @@
                               <path d="M3424 7085 L3424 7624" stroke-width="18" />
                            </g>
                         </g>
-                        <g id="m7s1n4" class="note" data-on="25.5" data-off="26">
+                        <g id="m7s1n4" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(4510, 7057) scale(0.72, 0.72)" />
                            </g>
@@ -725,7 +725,7 @@
                      </g>
                      <g id="c9lal2r" class="beam">
                         <polygon points="5604,7777 8907,7777 8907,7687 5604,7687" />
-                        <g id="m7s1n5" class="note" data-on="26" data-off="26.5">
+                        <g id="m7s1n5" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(5604, 7057) scale(0.72, 0.72)" />
                            </g>
@@ -733,7 +733,7 @@
                               <path d="M5613 7085 L5613 7759" stroke-width="18" />
                            </g>
                         </g>
-                        <g id="m7s1n6" class="note" data-on="26.5" data-off="27">
+                        <g id="m7s1n6" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(6699, 7147) scale(0.72, 0.72)" />
                            </g>
@@ -744,7 +744,7 @@
                         <g id="m7s1r1" class="rest">
                            <use xlink:href="#E4E6-u1g5m2qb" transform="translate(7794, 7237) scale(0.72, 0.72)" />
                         </g>
-                        <g id="m7s1n7" class="note" data-on="27.5" data-off="28">
+                        <g id="m7s1n7" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(8889, 6787) scale(0.72, 0.72)" />
                            </g>
@@ -770,7 +770,7 @@
                      </g>
                   </g>
                   <g id="i18zlfra" class="layer">
-                     <g id="m7s2n1" class="note" data-on="24" data-off="25">
+                     <g id="m7s2n1" class="note">
                         <g class="notehead">
                            <use xlink:href="#E0A4-u1g5m2qb" transform="translate(1225, 8947) scale(0.72, 0.72)" />
                         </g>
@@ -778,7 +778,7 @@
                            <path d="M1234 8975 L1234 9577" stroke-width="18" />
                         </g>
                      </g>
-                     <g id="m7s2n2" class="note" data-on="25" data-off="26">
+                     <g id="m7s2n2" class="note">
                         <g class="notehead">
                            <use xlink:href="#E0A4-u1g5m2qb" transform="translate(3415, 8947) scale(0.72, 0.72)" />
                         </g>
@@ -786,7 +786,7 @@
                            <path d="M3424 8975 L3424 9577" stroke-width="18" />
                         </g>
                      </g>
-                     <g id="m7s2n3" class="note" data-on="26" data-off="27">
+                     <g id="m7s2n3" class="note">
                         <g class="notehead">
                            <use xlink:href="#E0A4-u1g5m2qb" transform="translate(5604, 8947) scale(0.72, 0.72)" />
                         </g>
@@ -797,7 +797,7 @@
                      <g id="m7s2r1" class="rest">
                         <use xlink:href="#E4E6-u1g5m2qb" transform="translate(7794, 9037) scale(0.72, 0.72)" />
                      </g>
-                     <g id="m7s2n4" class="note" data-on="27.5" data-off="28">
+                     <g id="m7s2n4" class="note">
                         <g class="notehead">
                            <use xlink:href="#E0A4-u1g5m2qb" transform="translate(8889, 8767) scale(0.72, 0.72)" />
                         </g>
@@ -825,7 +825,7 @@
                      </g>
                   </g>
                   <g id="poyguoe" class="layer">
-                     <g id="m7s3n1" class="note" data-on="24" data-off="25">
+                     <g id="m7s3n1" class="note">
                         <g class="notehead">
                            <use xlink:href="#E0A4-u1g5m2qb" transform="translate(1225, 10657) scale(0.72, 0.72)" />
                         </g>
@@ -833,7 +833,7 @@
                            <path d="M1234 10685 L1234 11287" stroke-width="18" />
                         </g>
                      </g>
-                     <g id="m7s3n2" class="note" data-on="25" data-off="26">
+                     <g id="m7s3n2" class="note">
                         <g class="notehead">
                            <use xlink:href="#E0A4-u1g5m2qb" transform="translate(3415, 10567) scale(0.72, 0.72)" />
                         </g>
@@ -841,7 +841,7 @@
                            <path d="M3424 10595 L3424 11197" stroke-width="18" />
                         </g>
                      </g>
-                     <g id="m7s3n3" class="note" data-on="26" data-off="27">
+                     <g id="m7s3n3" class="note">
                         <g class="notehead">
                            <use xlink:href="#E0A4-u1g5m2qb" transform="translate(5604, 10477) scale(0.72, 0.72)" />
                         </g>
@@ -849,7 +849,7 @@
                            <path d="M5613 10505 L5613 11107" stroke-width="18" />
                         </g>
                      </g>
-                     <g id="m7s3n4" class="note" data-on="27" data-off="28">
+                     <g id="m7s3n4" class="note">
                         <g class="notehead">
                            <use xlink:href="#E0A4-u1g5m2qb" transform="translate(7794, 10747) scale(0.72, 0.72)" />
                         </g>
@@ -953,7 +953,7 @@
                         <polygon points="10192,7282 10922,7342 10922,7252 10192,7192" />
                         <polygon points="10922,7342 11644,7402 11644,7312 10922,7252" />
                         <polygon points="11644,7402 12375,7462 12375,7372 11644,7312" />
-                        <g id="m8s1n1" class="note" data-on="28" data-off="28.25">
+                        <g id="m8s1n1" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(10192, 6697) scale(0.72, 0.72)" />
                            </g>
@@ -961,7 +961,7 @@
                               <path d="M10201 6725 L10201 7399" stroke-width="18" />
                            </g>
                         </g>
-                        <g id="m8s1n2" class="note" data-on="28.25" data-off="28.5">
+                        <g id="m8s1n2" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(10913, 6787) scale(0.72, 0.72)" />
                            </g>
@@ -969,7 +969,7 @@
                               <path d="M10922 6815 L10922 7459" stroke-width="18" />
                            </g>
                         </g>
-                        <g id="m8s1n3" class="note" data-on="28.5" data-off="28.75">
+                        <g id="m8s1n3" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(11635, 6877) scale(0.72, 0.72)" />
                            </g>
@@ -977,7 +977,7 @@
                               <path d="M11644 6905 L11644 7519" stroke-width="18" />
                            </g>
                         </g>
-                        <g id="m8s1n4" class="note" data-on="28.75" data-off="29">
+                        <g id="m8s1n4" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(12357, 6967) scale(0.72, 0.72)" />
                            </g>
@@ -986,7 +986,7 @@
                            </g>
                         </g>
                      </g>
-                     <g id="m8s1n5" class="note" data-on="29" data-off="30">
+                     <g id="m8s1n5" class="note">
                         <g class="notehead">
                            <use xlink:href="#E0A4-u1g5m2qb" transform="translate(13078, 7057) scale(0.72, 0.72)" />
                         </g>
@@ -994,7 +994,7 @@
                            <path d="M13087 7085 L13087 7687" stroke-width="18" />
                         </g>
                      </g>
-                     <g id="m8s1n6" class="note" data-on="30" data-off="31">
+                     <g id="m8s1n6" class="note">
                         <g class="notehead">
                            <use xlink:href="#E0A4-u1g5m2qb" transform="translate(15208, 7147) scale(0.72, 0.72)" />
                         </g>
@@ -1002,7 +1002,7 @@
                            <path d="M15217 7175 L15217 7777" stroke-width="18" />
                         </g>
                      </g>
-                     <g id="m8s1n7" class="note" data-on="31" data-off="32">
+                     <g id="m8s1n7" class="note">
                         <g class="notehead">
                            <use xlink:href="#E0A4-u1g5m2qb" transform="translate(17398, 6877) scale(0.72, 0.72)" />
                         </g>
@@ -1022,7 +1022,7 @@
                      <g id="o1n8n2vv" class="beam">
                         <polygon points="10192,9757 11653,9577 11653,9487 10192,9667" />
                         <polygon points="10192,9622 10922,9533 10922,9443 10192,9532" />
-                        <g id="m8s2n1" class="note" data-on="28" data-off="28.25">
+                        <g id="m8s2n1" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(10192, 9127) scale(0.72, 0.72)" />
                            </g>
@@ -1030,7 +1030,7 @@
                               <path d="M10201 9155 L10201 9739" stroke-width="18" />
                            </g>
                         </g>
-                        <g id="m8s2n2" class="note" data-on="28.25" data-off="28.5">
+                        <g id="m8s2n2" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(10913, 9037) scale(0.72, 0.72)" />
                            </g>
@@ -1041,7 +1041,7 @@
                               <use xlink:href="#E261-u1g5m2qb" transform="translate(10755, 9037) scale(0.72, 0.72)" />
                            </g>
                         </g>
-                        <g id="m8s2n3" class="note" data-on="28.5" data-off="29">
+                        <g id="m8s2n3" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(11635, 8947) scale(0.72, 0.72)" />
                            </g>
@@ -1053,7 +1053,7 @@
                      <g id="t1nhvnoz" class="beam">
                         <polygon points="13078,9577 14504,9667 14504,9577 13078,9487" />
                         <polygon points="14278,9519 14504,9532 14504,9442 14278,9429" />
-                        <g id="m8s2n4" class="note" data-on="29" data-off="29.75">
+                        <g id="m8s2n4" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(13078, 8947) scale(0.72, 0.72)" />
                            </g>
@@ -1064,7 +1064,7 @@
                               <path d="M13087 8975 L13087 9559" stroke-width="18" />
                            </g>
                         </g>
-                        <g id="m8s2n5" class="note" data-on="29.75" data-off="30">
+                        <g id="m8s2n5" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(14486, 9037) scale(0.72, 0.72)" />
                            </g>
@@ -1074,7 +1074,7 @@
                            <g id="w13pw2w5" class="accid" />
                         </g>
                      </g>
-                     <g id="m8s2n6" class="note" data-on="30" data-off="31">
+                     <g id="m8s2n6" class="note">
                         <g class="notehead">
                            <use xlink:href="#E0A4-u1g5m2qb" transform="translate(15208, 8947) scale(0.72, 0.72)" />
                         </g>
@@ -1097,7 +1097,7 @@
                      <path d="M16255 10297 L16577 10297" stroke-width="22" />
                   </g>
                   <g id="a1sap39a" class="layer">
-                     <g id="m8s3n1" class="note" data-on="28" data-off="29">
+                     <g id="m8s3n1" class="note">
                         <g class="notehead">
                            <use xlink:href="#E0A4-u1g5m2qb" transform="translate(10192, 10657) scale(0.72, 0.72)" />
                         </g>
@@ -1105,7 +1105,7 @@
                            <path d="M10201 10685 L10201 11287" stroke-width="18" />
                         </g>
                      </g>
-                     <g id="m8s3n2" class="note" data-on="29" data-off="30">
+                     <g id="m8s3n2" class="note">
                         <g class="notehead">
                            <use xlink:href="#E0A4-u1g5m2qb" transform="translate(13078, 10567) scale(0.72, 0.72)" />
                         </g>
@@ -1115,7 +1115,7 @@
                      </g>
                      <g id="ddnxt45" class="beam">
                         <polygon points="15208,11467 18511,11287 18511,11197 15208,11377" />
-                        <g id="m8s3n3" class="note" data-on="30" data-off="30.5">
+                        <g id="m8s3n3" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(15208, 10927) scale(0.72, 0.72)" />
                            </g>
@@ -1123,7 +1123,7 @@
                               <path d="M15217 10955 L15217 11449" stroke-width="18" />
                            </g>
                         </g>
-                        <g id="m8s3n4" class="note" data-on="30.5" data-off="31">
+                        <g id="m8s3n4" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(16303, 10297) scale(0.72, 0.72)" />
                            </g>
@@ -1131,7 +1131,7 @@
                               <path d="M16312 10325 L16312 11389" stroke-width="18" />
                            </g>
                         </g>
-                        <g id="m8s3n5" class="note" data-on="31" data-off="31.5">
+                        <g id="m8s3n5" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(17398, 10477) scale(0.72, 0.72)" />
                            </g>
@@ -1139,7 +1139,7 @@
                               <path d="M17407 10505 L17407 11329" stroke-width="18" />
                            </g>
                         </g>
-                        <g id="m8s3n6" class="note" data-on="31.5" data-off="32">
+                        <g id="m8s3n6" class="note">
                            <g class="notehead">
                               <use xlink:href="#E0A4-u1g5m2qb" transform="translate(18493, 10657) scale(0.72, 0.72)" />
                            </g>
