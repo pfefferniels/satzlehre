@@ -230,6 +230,50 @@
   margin-top: 0.6em;
 }
 
+.reveal .caption {
+  font-size: 0.7em;
+  text-align: center;
+  color: #374151;
+}
+
+/* A passage from the literature, quoted at reading size rather than as a slide-filling quote. */
+.reveal blockquote.study {
+  max-width: 34em;
+  font-size: 0.85em;
+  line-height: 1.45;
+  margin: 0.4em 0 0.6em;
+}
+
+/* Figures as a theorist writes them in running text: one column of numbers above another. */
+.reveal .figures {
+  display: block;
+  margin: 0.5em 0 0.5em 2em;
+  line-height: 1.2;
+  letter-spacing: 0.35em;
+}
+
+.reveal .figures span { display: block; }
+
+.reveal table.terms {
+  border-collapse: collapse;
+  font-size: 0.8em;
+  margin: 0.4em 0 0.4em;
+}
+
+.reveal table.terms th,
+.reveal table.terms td {
+  padding: 0.3em 1.4em 0.3em 0;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+.reveal table.terms thead th {
+  font-weight: 600;
+  color: #4b5563;
+}
+
+.reveal table.terms tbody th { font-weight: normal; }
+.reveal table.terms td { font-style: italic; }
 
 .reveal .refs {
   list-style: none;
