@@ -3,7 +3,7 @@
   <meiHead>
     <fileDesc>
       <titleStmt>
-        <title>Kadenz in fa in zwei Schritten: 5/4 – 5/3 über der Penultima</title>
+        <title>Kadenz in fa in zwei Schritten: 4 – 3 über der Penultima</title>
       </titleStmt>
       <pubStmt/>
     </fileDesc>
@@ -35,25 +35,28 @@
             <measure n="1">
               <staff n="1">
                 <layer n="1">
-                  <note pname="f" oct="4" dur="2" tie="i"/>
+                  <rest dur="4"/>
+                  <note pname="f" oct="4" dur="4" tie="i"/>
                   <note pname="f" oct="4" dur="4" tie="t"/>
                   <note pname="e" oct="4" dur="4"/>
                 </layer>
               </staff>
               <staff n="2">
                 <layer n="1">
-                  <note pname="a" oct="3" dur="2"/>
+                  <rest dur="4"/>
+                  <note pname="a" oct="3" dur="4"/>
                   <note pname="g" oct="3" dur="2"/>
                 </layer>
               </staff>
               <staff n="3">
                 <layer n="1">
-                  <note pname="f" oct="2" dur="2"/>
+                  <rest dur="4"/>
+                  <note pname="f" oct="2" dur="4"/>
                   <note pname="c" oct="3" dur="2"/>
                 </layer>
               </staff>
-              <harm staff="3" place="below" tstamp="3"><fb><f>5</f><f>4</f></fb></harm>
-              <harm staff="3" place="below" tstamp="4"><fb><f>5</f><f>3</f></fb></harm>
+              <harm staff="3" place="below" tstamp="3"><fb><f>4</f></fb></harm>
+              <harm staff="3" place="below" tstamp="4"><fb><f>3</f></fb></harm>
             </measure>
             <measure n="2" right="end">
               <staff n="1">
