@@ -171,7 +171,8 @@
 }
 
 /* The Spotify player of js/recording.js at the foot of the slide; the score leaves room for it. */
-.reveal section[data-spotify] .score-only { height: 610px; }
+.reveal section[data-spotify] .score-only,
+.reveal section[data-spotify] .edition { height: 610px; }
 
 .reveal .recording-player {
   position: absolute;
