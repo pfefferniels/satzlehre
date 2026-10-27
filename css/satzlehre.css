@@ -109,6 +109,12 @@
 .reveal .homework.long { --scale: 0.305; }
 .reveal .homework.solo { --scale: 0.43; }
 
+/* The student's own heading, on a row of its own above the example. */
+.reveal .homework .caption {
+  flex-basis: 100%;
+  margin: 0;
+}
+
 /* Excerpts from a printed edition, centred and all at one width so the staves keep one size. */
 .reveal .edition {
   height: 704px;
