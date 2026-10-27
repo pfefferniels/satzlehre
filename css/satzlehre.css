@@ -145,6 +145,12 @@
   line-height: 1.4;
 }
 
+/* Each original passage on the left with its translation on the same row. */
+.reveal .treatise.paired {
+  row-gap: 0.2em;
+  align-items: baseline;
+}
+
 .reveal .translation {
   font-size: 0.56em;
   color: #4b5563;
