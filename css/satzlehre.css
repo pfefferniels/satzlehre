@@ -155,6 +155,21 @@
   margin: 0 auto;
 }
 
+/* A treatise passage line by line as printed, each line with its translation underneath. */
+.reveal .interlinear p {
+  margin: 0 0 5px;
+  font-size: 0.56em;
+  color: #4b5563;
+}
+
+.reveal .interlinear p[lang="it"] {
+  margin: 0;
+  font-family: "Hoefler Text", Garamond, "EB Garamond", serif;
+  font-size: 0.66em;
+  font-style: italic;
+  color: #111827;
+}
+
 .reveal .excerpts {
   display: flex;
   justify-content: center;
