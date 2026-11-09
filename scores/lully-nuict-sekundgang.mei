@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title>Sekundgang</title>
+        <title type="subordinate">Prélude pour la Nuict, T. 62–72, Bass</title>
+        <composer>Jean-Baptiste Lully</composer>
+      </titleStmt>
+      <pubStmt/>
+      <notesStmt>
+        <annot>Basse continue nach Niels Pfeffers Reduktion des Prélude (Mai 2022). Taktzahlen vom Beginn des Prélude gezählt. Das A in T. 72 ist bei Lully eine Viertel.</annot>
+      </notesStmt>
+      <sourceDesc>
+        <source>
+          <bibl>Jean-Baptiste Lully, Le Triomphe de l'Amour, Paris: Ballard 1681, S. 86 ff.</bibl>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef>
+            <staffGrp>
+              <staffDef n="1" lines="5">
+                <clef shape="F" line="4"/>
+                <meterSig count="3" unit="2"/>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section>
+            <measure n="62">
+              <staff n="1">
+                <layer n="1">
+                  <rest dur="2"/>
+                  <note pname="d" oct="4" dur="1"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="63">
+              <staff n="1">
+                <layer n="1">
+                  <note pname="c" oct="4" dur="1" dots="1"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="64">
+              <staff n="1">
+                <layer n="1">
+                  <note pname="b" oct="3" dur="1" dots="1" accid="f"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="65">
+              <staff n="1">
+                <layer n="1">
+                  <note pname="a" oct="3" dur="1" dots="1"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="66">
+              <staff n="1">
+                <layer n="1">
+                  <note pname="g" oct="3" dur="1" dots="1"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="67">
+              <staff n="1">
+                <layer n="1">
+                  <note pname="f" oct="3" dur="1" dots="1"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="68">
+              <staff n="1">
+                <layer n="1">
+                  <note pname="e" oct="3" dur="1" dots="1"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="69">
+              <staff n="1">
+                <layer n="1">
+                  <note pname="d" oct="3" dur="1" dots="1"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="70">
+              <staff n="1">
+                <layer n="1">
+                  <note pname="c" oct="3" dur="1" dots="1"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="71">
+              <staff n="1">
+                <layer n="1">
+                  <note pname="b" oct="2" dur="1" dots="1" accid="f"/>
+                </layer>
+              </staff>
+            </measure>
+            <measure n="72" right="end">
+              <staff n="1">
+                <layer n="1">
+                  <note pname="a" oct="2" dur="1" dots="1"/>
+                </layer>
+              </staff>
+            </measure>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>
