@@ -4,12 +4,12 @@
     <fileDesc>
       <titleStmt>
         <title>Quintfall</title>
-        <title type="subordinate">Prélude pour la Nuict, T. 26–30, Bass</title>
+        <title type="subordinate">Modell nach dem Bass im Prélude pour la Nuict</title>
         <composer>Jean-Baptiste Lully</composer>
       </titleStmt>
       <pubStmt/>
       <notesStmt>
-        <annot>Basse continue nach Niels Pfeffers Reduktion des Prélude (Mai 2022), die auf Muffat S. 77 verweist. Taktzahlen vom Beginn des Prélude gezählt. Das A in T. 30 ist bei Lully eine Viertel.</annot>
+        <annot>Der Bass aus Niels Pfeffers Reduktion des Prélude (Mai 2022) ohne Diminutionen und Tonwiederholungen, in gleichen Werten. Vgl. Georg Muffat, Regulae concentuum partiturae (1699), S. 77 der in der Reduktion benutzten Ausgabe.</annot>
       </notesStmt>
       <sourceDesc>
         <source>
@@ -26,52 +26,33 @@
             <staffGrp>
               <staffDef n="1" lines="5">
                 <clef shape="F" line="4"/>
-                <meterSig count="3" unit="2"/>
               </staffDef>
             </staffGrp>
           </scoreDef>
           <section>
-            <measure n="26">
-              <staff n="1">
-                <layer n="1">
-                  <rest dur="2"/>
-                  <note pname="a" oct="3" dur="2"/>
-                  <note pname="a" oct="3" dur="2"/>
-                </layer>
-              </staff>
+            <measure n="1">
+              <staff n="1"><layer n="1"><note pname="a" oct="3" dur="1"/></layer></staff>
             </measure>
-            <measure n="27">
-              <staff n="1">
-                <layer n="1">
-                  <note pname="d" oct="3" dur="2"/>
-                  <note pname="d" oct="3" dur="2"/>
-                  <note pname="g" oct="3" dur="2"/>
-                </layer>
-              </staff>
+            <measure n="2">
+              <staff n="1"><layer n="1"><note pname="d" oct="3" dur="1"/></layer></staff>
             </measure>
-            <measure n="28">
-              <staff n="1">
-                <layer n="1">
-                  <note pname="c" oct="3" dur="2"/>
-                  <note pname="f" oct="3" dur="2"/>
-                  <note pname="f" oct="3" dur="2"/>
-                </layer>
-              </staff>
+            <measure n="3">
+              <staff n="1"><layer n="1"><note pname="g" oct="3" dur="1"/></layer></staff>
             </measure>
-            <measure n="29">
-              <staff n="1">
-                <layer n="1">
-                  <note pname="d" oct="3" dur="2"/>
-                  <note pname="e" oct="3" dur="1"/>
-                </layer>
-              </staff>
+            <measure n="4">
+              <staff n="1"><layer n="1"><note pname="c" oct="3" dur="1"/></layer></staff>
             </measure>
-            <measure n="30" right="end">
-              <staff n="1">
-                <layer n="1">
-                  <note pname="a" oct="2" dur="1" dots="1"/>
-                </layer>
-              </staff>
+            <measure n="5">
+              <staff n="1"><layer n="1"><note pname="f" oct="3" dur="1"/></layer></staff>
+            </measure>
+            <measure n="6">
+              <staff n="1"><layer n="1"><note pname="d" oct="3" dur="1"/></layer></staff>
+            </measure>
+            <measure n="7">
+              <staff n="1"><layer n="1"><note pname="e" oct="3" dur="1"/></layer></staff>
+            </measure>
+            <measure n="8" right="end">
+              <staff n="1"><layer n="1"><note pname="a" oct="2" dur="1"/></layer></staff>
             </measure>
           </section>
         </score>

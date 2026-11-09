@@ -4,12 +4,12 @@
     <fileDesc>
       <titleStmt>
         <title>Quintstieg</title>
-        <title type="subordinate">Prélude pour la Nuict, T. 22–24, tiefste Stimme</title>
+        <title type="subordinate">Modell nach dem Bass im Prélude pour la Nuict</title>
         <composer>Jean-Baptiste Lully</composer>
       </titleStmt>
       <pubStmt/>
       <notesStmt>
-        <annot>Nach Niels Pfeffers Reduktion des Prélude (Mai 2022), die auf Muffat S. 73 verweist. Taktzahlen vom Beginn des Prélude gezählt. Der Basse continue und die Bratschen pausieren in T. 22–25, die tiefste Stimme ist die dritte Violinstimme. Sie steht hier wie in der Reduktion eine Oktave tiefer.</annot>
+        <annot>Der Bass aus Niels Pfeffers Reduktion des Prélude (Mai 2022) ohne Diminutionen und Tonwiederholungen, in gleichen Werten. Vgl. Georg Muffat, Regulae concentuum partiturae (1699), S. 73 der in der Reduktion benutzten Ausgabe.</annot>
       </notesStmt>
       <sourceDesc>
         <source>
@@ -26,38 +26,21 @@
             <staffGrp>
               <staffDef n="1" lines="5">
                 <clef shape="F" line="4"/>
-                <meterSig count="3" unit="2"/>
               </staffDef>
             </staffGrp>
           </scoreDef>
           <section>
-            <measure n="22" type="upbeat" metcon="false">
-              <staff n="1">
-                <layer n="1">
-                  <note pname="f" oct="3" dur="4"/>
-                </layer>
-              </staff>
+            <measure n="1">
+              <staff n="1"><layer n="1"><note pname="f" oct="3" dur="1"/></layer></staff>
             </measure>
-            <measure n="23">
-              <staff n="1">
-                <layer n="1">
-                  <note pname="c" oct="4" dur="2" dots="1"/>
-                  <note pname="c" oct="4" dur="4"/>
-                  <note pname="b" oct="3" dur="4" accid="f"/>
-                  <note pname="a" oct="3" dur="4"/>
-                </layer>
-              </staff>
+            <measure n="2">
+              <staff n="1"><layer n="1"><note pname="c" oct="4" dur="1"/></layer></staff>
             </measure>
-            <measure n="24" right="end">
-              <staff n="1">
-                <layer n="1">
-                  <note pname="g" oct="3" dur="4"/>
-                  <note pname="a" oct="3" dur="4"/>
-                  <note pname="b" oct="3" dur="4" accid="f"/>
-                  <note pname="g" oct="3" dur="4"/>
-                  <note pname="d" oct="4" dur="2"/>
-                </layer>
-              </staff>
+            <measure n="3">
+              <staff n="1"><layer n="1"><note pname="g" oct="3" dur="1"/></layer></staff>
+            </measure>
+            <measure n="4" right="end">
+              <staff n="1"><layer n="1"><note pname="d" oct="4" dur="1"/></layer></staff>
             </measure>
           </section>
         </score>

@@ -101,9 +101,8 @@ NARROW_SYSTEMS = {
 # One width and spacing in proportion to duration, so that stacked on a slide the examples line up beat by beat.
 STEP_BY_STEP = NARROW_SYSTEMS | {"pageWidth": 1400, "spacingLinear": 0.05, "spacingNonLinear": 1.0}
 
-# A bass line alone, spaced tighter than the default so that a few bars fill a slide at a large staff size.
-# The gap after each barline keeps a following down-stem from reading as a double bar.
-BASS_LINE = Rendering(options={"spacingLinear": 0.3, "spacingNonLinear": 0.5, "rightMarginRightBarLine": 1.0})
+# One whole note a bar, spaced tight enough that the eleven bars of the longest model fill a slide at a large staff size.
+MODEL = Rendering(options={"spacingLinear": 0.25, "spacingNonLinear": 0.5})
 
 RENDERINGS = {
     "artusi-seconda-fermarsi": Rendering(excerpts=("1-2",)),
@@ -117,14 +116,12 @@ RENDERINGS = {
     "corelli-op3-1-grave-reduktion-ligatur": Rendering(whole=False, excerpts=("8-9",), options=NARROW_SYSTEMS),
     "doppia-zwei-schritte": Rendering(options=STEP_BY_STEP),
     "doppia-vier-schritte": Rendering(options=STEP_BY_STEP),
-    "lully-nuict-quartfall": BASS_LINE,
-    "lully-nuict-quintstieg": BASS_LINE,
-    "lully-nuict-quintfall": BASS_LINE,
-    "lully-nuict-quartstieg": BASS_LINE,
-    "lully-nuict-terzfall": BASS_LINE,
-    "lully-nuict-terzfall-vierteln": BASS_LINE,
-    # Eleven bars of equal dotted wholes: closer still, so the staff keeps the size of the other bass lines.
-    "lully-nuict-sekundgang": Rendering(options=BASS_LINE.options | {"spacingLinear": 0.15}),
+    "lully-nuict-quartfall": MODEL,
+    "lully-nuict-quintstieg": MODEL,
+    "lully-nuict-quintfall": MODEL,
+    "lully-nuict-quartstieg": MODEL,
+    "lully-nuict-terzfall": MODEL,
+    "lully-nuict-sekundgang": MODEL,
     "muffat-sonata-2-grave": Rendering(whole=False, excerpts=("1-4",)),
 }
 

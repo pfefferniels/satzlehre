@@ -4,12 +4,12 @@
     <fileDesc>
       <titleStmt>
         <title>Terzfall</title>
-        <title type="subordinate">Prélude pour la Nuict, T. 42–44, Bass</title>
+        <title type="subordinate">Modell nach dem Bass im Prélude pour la Nuict</title>
         <composer>Jean-Baptiste Lully</composer>
       </titleStmt>
       <pubStmt/>
       <notesStmt>
-        <annot>Basse continue nach Niels Pfeffers Reduktion des Prélude (Mai 2022), die auf Muffat S. 67 verweist. Taktzahlen vom Beginn des Prélude gezählt. Das erste c in T. 42 beschließt den Quartstieg und ist hier wie in der Reduktion durch eine Pause ersetzt. Bei Lully geht der Bass in T. 44 in Vierteln weiter (a g f e d).</annot>
+        <annot>Der Bass aus Niels Pfeffers Reduktion des Prélude (Mai 2022) ohne Diminutionen und Tonwiederholungen, in gleichen Werten. Vgl. Georg Muffat, Regulae concentuum partiturae (1699), S. 67 der in der Reduktion benutzten Ausgabe.</annot>
       </notesStmt>
       <sourceDesc>
         <source>
@@ -26,35 +26,24 @@
             <staffGrp>
               <staffDef n="1" lines="5">
                 <clef shape="F" line="4"/>
-                <meterSig count="3" unit="2"/>
               </staffDef>
             </staffGrp>
           </scoreDef>
           <section>
-            <measure n="42">
-              <staff n="1">
-                <layer n="1">
-                  <rest dur="2"/>
-                  <note pname="c" oct="4" dur="2"/>
-                  <note pname="a" oct="3" dur="2"/>
-                </layer>
-              </staff>
+            <measure n="1">
+              <staff n="1"><layer n="1"><note pname="c" oct="4" dur="1"/></layer></staff>
             </measure>
-            <measure n="43">
-              <staff n="1">
-                <layer n="1">
-                  <note pname="b" oct="3" dur="2" accid="f"/>
-                  <note pname="b" oct="3" dur="2" accid.ges="f"/>
-                  <note pname="g" oct="3" dur="2"/>
-                </layer>
-              </staff>
+            <measure n="2">
+              <staff n="1"><layer n="1"><note pname="a" oct="3" dur="1"/></layer></staff>
             </measure>
-            <measure n="44" right="end">
-              <staff n="1">
-                <layer n="1">
-                  <note pname="a" oct="3" dur="2"/>
-                </layer>
-              </staff>
+            <measure n="3">
+              <staff n="1"><layer n="1"><note pname="b" oct="3" dur="1" accid="f"/></layer></staff>
+            </measure>
+            <measure n="4">
+              <staff n="1"><layer n="1"><note pname="g" oct="3" dur="1"/></layer></staff>
+            </measure>
+            <measure n="5" right="end">
+              <staff n="1"><layer n="1"><note pname="a" oct="3" dur="1"/></layer></staff>
             </measure>
           </section>
         </score>
